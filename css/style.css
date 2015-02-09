@@ -162,6 +162,10 @@ img {
   overflow: hidden;
 }
 
+button {
+  float: right;
+}
+
 /* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;

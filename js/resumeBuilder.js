@@ -1,6 +1,6 @@
 var bio = {
 	"name" : "Alisen Boada",
-	"role" : "Web Developer",
+	"role" : "Web Developer, Researcher, and Illustrator",
 	"contacts" : {
 		"mobile" : "555-5555",
 		"email" : "akboada@gmail.com",
@@ -65,7 +65,7 @@ bio.display = function(){
 	var formattedMessage =
 		HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
 
-	$("#topContacts").after(formattedMessage);
+	$("#header").append(formattedMessage);
 
 
 	if (bio.skills.length > 0){
@@ -121,7 +121,6 @@ work.display = function(){
 
 	$("#workExperience").append(HTMLworkStart);
 
-
 	var formattedEmployer = 
 	HTMLworkEmployer.replace("%data%", work.job[jobs].employer);
 
@@ -134,7 +133,6 @@ work.display = function(){
 		HTMLworkDates.replace("%data%", work.job[jobs].dates);
 
 	$(".work-entry:last").append(formattedDates);
-
 
 	var formattedLocation = 
 	HTMLworkLocation.replace("%data%", work.job[jobs].location);	
@@ -237,7 +235,7 @@ var education = {
 		"title" : "Udacity",
 		"course" : "Front End Web Developer Nanodegree",
 		"date" : 2015,
-		"url": "https://udacity.com/"
+		"url": "https://www.udacity.com/course/nd001"
 		},
 
 		{
@@ -296,6 +294,7 @@ education.display = function (){
 
 	
 	if (education.onlineCourses.length > 0) {
+		
 		$(".education-entry:last").append(HTMLonlineClasses);
 
 		for (online in education.onlineCourses){
