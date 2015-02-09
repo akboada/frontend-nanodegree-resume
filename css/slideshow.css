@@ -1,0 +1,53 @@
+/*http://line25.com/tutorials/how-to-build-a-sliding-feature-slideshow-with-jquery*/
+
+
+.slideshow {
+	width:100%;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	display: inline-block;
+  	padding: 10px;
+}
+
+.slideshow ul {
+	width: 100%;
+	list-style-type:none;
+	display: inline-block;
+}
+
+.slideshow ul li {
+	float:left;
+	
+}
+
+.slideshow img {
+	max-width: 30em;
+}
+
+.slideshow-nav{
+	width:250px;
+
+}
+
+.slideshow-nav ul {
+	list-style: none;
+
+}
+
+.slideshow-nav ul li {
+	float:left;
+}
+
+.slideshow-nav ul li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	text-indent: -9999px;
+	border-radius: 30px;
+
+}
+
+.slideshow-nav ul li a:hover ul li a.active {
+	background-color: #a89d8a;
+}
