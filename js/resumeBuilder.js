@@ -152,12 +152,12 @@ var projects = {
 		"title" : "Logos",
 		"dates" : "June 2013 - present",	
 		"description" : "Designed logos for local bands and organizations",
-		"images" : ["images/sweet.jpg", "images/beeberry.png", "images/ORCA.png"]
+		"images" : ["images/beeberry.png", "images/ORCA.png"]
 		},
 		{
 		"title" : "Infographics",
 		"dates" : "June 2014 - Nov 2014",	
-		"description" : '"Designed inforgraphics for online non-partisan voter guide"',
+		"description" : 'Designed inforgraphics for online non-partisan voter guide',
 		"images" : ["images/GMOgraphic.jpg"]
 		},	
 	]

@@ -1,7 +1,14 @@
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Futura', sans-serif;
+}
+
+* {
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
 }
 
 .clearfix {
@@ -148,6 +155,11 @@ ul {
 
 img {
   padding: 10px;
+}
+
+#project-img {
+  height:25em;
+  overflow: hidden;
 }
 
 /* Bar chart stuff */
