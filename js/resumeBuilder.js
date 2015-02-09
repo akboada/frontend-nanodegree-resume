@@ -151,13 +151,13 @@ var projects = {
 		{
 		"title" : "Logos",
 		"dates" : "June 2013 - present",	
-		"description" : "Designed logos and poster illustrations",
-		"images" : ["images/sweet.jpg", "images/beeberry.png", "images/joan.jpg", "images/ORCA.png"]
+		"description" : "Designed logos for local bands and organizations",
+		"images" : ["images/sweet.jpg", "images/beeberry.png", "images/ORCA.png"]
 		},
 		{
 		"title" : "Infographics",
 		"dates" : "June 2014 - Nov 2014",	
-		"description" : '"A vehicle for chaos"',
+		"description" : '"Designed inforgraphics for online non-partisan voter guide"',
 		"images" : ["images/GMOgraphic.jpg"]
 		},	
 	]
@@ -191,7 +191,7 @@ projects.display = function(){
 				var formattedImages = 
 					HTMLprojectImage.replace("%data%", projects.projects[project].images[image]);			
 
-			 	$("#project-entry:last").append(formattedImages);
+			 	$(".project-entry:last").append(formattedImages);
 
 			}	
 	    }
