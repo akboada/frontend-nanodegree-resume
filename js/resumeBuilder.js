@@ -202,6 +202,8 @@ projects.display = function(){
 
 			 	$(".project-entry:last").append(formattedImages);
 
+			 	$("#light").attr("data-lightbox", projects.projects[project].images[image])
+
 			}	
 	    }
 			
