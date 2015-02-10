@@ -161,7 +161,7 @@ var projects = {
 		"title" : "Infographics",
 		"dates" : "June 2014 - Nov 2014",	
 		"description" : 'Designed inforgraphics for online non-partisan voter guide',
-		"images" : ["images/GMOgraphic.jpg", "images/sequester.jpg"]
+		"images" : ["images/GMOgraphic.jpg"]
 		},
 		{
 		"title" : "Illustrations",

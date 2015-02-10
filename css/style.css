@@ -155,11 +155,15 @@ ul {
 
 img {
   padding: 10px;
+  width: 100%;
 }
 
 #project-img {
+  display: inline-block;
+  width:25em;
   height:25em;
   overflow: hidden;
+  
 }
 
 button {
