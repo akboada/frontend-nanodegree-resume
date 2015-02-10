@@ -154,23 +154,20 @@ var projects = {
 		{
 		"title" : "Logos",
 		"dates" : "June 2013 - present",	
-		"description" : "Designed logos for local bands and organizations",
-		"images" : ["images/beeberry.png", "images/ORCA.png"],
-		"caption" : ["Logo for band Sweet Condition", "Logo for activist app Project ORCA"]
+		"description" : "Designed logos for local bands and organizations. Click to enlarge images.",
+		"images" : ["images/beeberry.png", "images/ORCA.png"]
 		},
 		{
 		"title" : "Infographics",
 		"dates" : "June 2014 - Nov 2014",	
-		"description" : 'Designed inforgraphics for online non-partisan voter guide',
+		"description" : 'Designed inforgraphics for online non-partisan voter guide. Click to enlarge images.',
 		"images" : ["images/GMOgraphic.jpg"],
-		"caption" : ["Inforgraphic for campaign contributors for the 2014 Washington GMO ballot iniative"]
 		},
 		{
 		"title" : "Illustrations",
 		"dates" : "June 2014 - Nov 2014",	
-		"description" : 'Designed illustrations for a local news outlet',
-		"images" : ["images/colonized.jpg", "images/scaffolding.jpg"],
-		"caption" : ["Illustration for a series on gentrification in Oakland", "Illustration for a series on gentrification in Oakland"]
+		"description" : 'Designed illustrations for a local news outlet. Click to enlarge images.',
+		"images" : ["images/colonized.jpg", "images/scaffolding.jpg"]
 		}	
 	]
 
