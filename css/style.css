@@ -122,8 +122,9 @@ a {
 }
 
 /* TODO: Replace with image later */
-#header {
-  background-color: #484848;
+header{
+  background-image:url("../images/ripples.jpg");
+  background-color: #cc8899;
 }
 
 .flex-box {
@@ -155,12 +156,11 @@ ul {
 
 img {
   padding: 10px;
-  width: 100%;
+  max-width: 100%;
 }
 
 #project-img {
   display: inline-block;
-  padding:10px;
   width:25em;
   height:25em;
   overflow: hidden;
