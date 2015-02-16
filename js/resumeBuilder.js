@@ -200,9 +200,7 @@ projects.display = function(){
 				var formattedImages = 
 					HTMLprojectImage.replace("%data%", projects.projects[project].images[image]);				
 
-			 	$(".project-entry:last").append(formattedImages);
-
-				$(".light:last").attr("href", projects.projects[project].images[image]);		 	
+			 	$(".project-entry:last").append(formattedImages);		 	
 
 			}	
 	    }
