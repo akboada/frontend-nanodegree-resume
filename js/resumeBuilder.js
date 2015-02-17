@@ -155,7 +155,7 @@ var projects = {
 		"title" : "Logos",
 		"dates" : "June 2013 - present",	
 		"description" : "Designed logos for local bands and organizations. Click to enlarge images.",
-		"images" : ["images/beeberry.png", "images/ORCA.png"]
+		"images" : ["images/beeberry.png", "images/orca.png"]
 		},
 		{
 		"title" : "Infographics",
